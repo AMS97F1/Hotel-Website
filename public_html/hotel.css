@@ -6,6 +6,19 @@ body{
     max-width: 980px;
 }
 
+/*Top-most banner*/
+#banner{
+    height: 200px;
+}
+img.logo{
+    float: left;
+}
+p.details{
+    text-align: right;
+    margin-top: 0em;
+    margin-bottom: 0.2em;
+}
+
 /*Navigation bar*/
 nav{
     background-color: #333; /*dark grey*/
