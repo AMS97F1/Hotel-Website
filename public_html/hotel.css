@@ -6,6 +6,10 @@ body{
     max-width: 980px;
 }
 
+a{
+    color: #333; /*dark grey*/
+}
+
 /*Top-most banner*/
 #banner{
     height: 200px;
