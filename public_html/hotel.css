@@ -17,6 +17,11 @@ p.details{
     text-align: right;
     margin-top: 0em;
     margin-bottom: 0.2em;
+    margin-right: 0.5em;
+}
+#bannerdetails{
+    position: relative;
+    top: 50%;
 }
 
 /*Navigation bar*/
