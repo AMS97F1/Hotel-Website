@@ -50,6 +50,12 @@ nav ul{
 nav ul li{
     display: inline-block;
     list-style-type: none;
+    
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
 nav > ul > li > a{
     color: #aaa; /*v. light grey*/
