@@ -13,6 +13,7 @@ a{
 /*Top-most banner*/
 #banner{
     height: 200px;
+    overflow: hidden;
 }
 img.logo{
     float: left;
@@ -26,6 +27,13 @@ p.details{
 #bannerdetails{
     position: relative;
     top: 50%;
+}
+
+/*for mobile*/
+@media screen and (max-width: 480px){
+    img.logo{
+        width: 62.5%;
+    }
 }
 
 /*Navigation bar*/
